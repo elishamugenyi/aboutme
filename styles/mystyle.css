@@ -25,3 +25,11 @@
     background-color: #04AA6D;
     color: white;
   }
+
+/*adding tag for image and paragrapgh*/
+.midnav{
+  float: left;
+  text-align: center;
+  background-color: #04AA6D;
+  font-size: small;
+}
