@@ -26,7 +26,7 @@ main section{
     color: blue;
 }
 body{
-    background-color: rgb(189, 214, 238);
+    background-color: #f3f3f3;
     color: #6c91c2;
 }
 header{
@@ -52,7 +52,7 @@ nav a:hover{
 }
 footer{
     color: #6c91c2;
-    background-color: aliceblue;
+    background-color: lightgray;
 }
 .home-title{
     color: #011936;
