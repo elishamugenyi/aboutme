@@ -78,7 +78,7 @@ footer a:hover{
     color: blue;
     text-decoration: underline;
 }
-.logo, .icon, img{
+.logo, .icon{
     width: 80px;
 }
 #hero-img{
