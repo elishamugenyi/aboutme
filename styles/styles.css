@@ -115,6 +115,7 @@ footer .social img{
 .logo, .icon{
     width: 80px;
     padding-top: 10px;
+    border-radius: 5px;
 
 }
 #logo-link{
