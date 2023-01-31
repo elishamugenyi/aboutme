@@ -5,11 +5,11 @@
 
 nav a {
     float: left;
+    background-color: #6c91c2;
     text-align: center;
     text-decoration: none;
     padding: 35px;
 }
-
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
