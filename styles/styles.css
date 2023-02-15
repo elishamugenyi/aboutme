@@ -104,6 +104,8 @@ footer{
     background-color: lightgray;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    
 }
 .home-title{
     color: #011936;
