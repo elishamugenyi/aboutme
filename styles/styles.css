@@ -155,11 +155,15 @@ footer a:hover{
 footer .social img{
     padding-top: 15px;
 }
-.logo, .icon{
+.logo{
+    width: 80px;
+    padding-top: 10px;
+    border-radius: 5%;
+}
+.icon{
     width: 80px;
     padding-top: 10px;
     border-radius: 5px;
-
 }
 #logo-link{
     padding-top: 5px;
