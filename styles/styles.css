@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 header{
-    background-color: azure;
+    background-color:whitesmoke;
     color: #6c91c2;
     display: grid;
     grid-template-columns: 150px auto;
@@ -12,6 +12,7 @@ nav a {
     float: left;
     background-color: #6c91c2;
     text-align: center;
+    color: burlywood;
     text-decoration: none;
     padding: 35px;
     display: flex;
