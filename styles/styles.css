@@ -104,8 +104,9 @@ footer{
     background-color: lightgray;
     padding: 25px 50px;
     margin-top: 200px;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
 }
 .home-title{
