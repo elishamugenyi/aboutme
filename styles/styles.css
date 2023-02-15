@@ -5,7 +5,6 @@
 header{
     background-color:whitesmoke;
     color: burlywood;
-    color: #6c91c2;
     display: grid;
     grid-template-columns: 150px auto;
 }
