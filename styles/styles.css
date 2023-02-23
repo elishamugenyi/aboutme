@@ -109,6 +109,11 @@ nav a:hover{
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.wireframe{
+    margin: 200px 0;
+    grid-column: 1/10;
+    grid-row: 7/10;
+}
 footer{
     color: #6c91c2;
     background-color: lightgray;
