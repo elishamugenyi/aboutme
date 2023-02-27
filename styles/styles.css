@@ -18,6 +18,7 @@ nav a {
     display: flex;
     justify-content: space-around;
     grid-column: 1/2;
+    max-width: 100em;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -194,7 +195,16 @@ footer .social img{
     grid-row: 1/2;
     margin-top: 100px;
 }    
-
+.rates-info{
+    margin: 200px 0;
+    grid-column: 2/10;
+    grid-row: 2/3;
+    align-items: start;
+}
+.rates{
+    align-self: auto;
+    justify-self: left;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
