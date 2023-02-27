@@ -198,8 +198,13 @@ footer .social img{
 .rates-info{
     margin: 200px 0;
     grid-column: 2/10;
-    grid-row: 2/3;
+    grid-row: 3/3;
     align-items: start;
+}
+.rates-img{
+    margin: 200px 0;
+    grid-column: 2/3;
+    grid-row: 2/2;
 }
 .rates{
     align-self: auto;
