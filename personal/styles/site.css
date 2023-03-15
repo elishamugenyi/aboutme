@@ -26,6 +26,39 @@ Fonts are separated by a | */
   --nav-hover-background-color: #0fcca9;
 }
 
+.logo{
+  width: 80px;
+  padding-top: 10px;
+  border-radius: 5%;
+}
+footer{
+  color: #396E94;
+  background-color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+footer a{
+  background-color: #2ED3F0;
+  color: #396E94;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+footer a:hover{
+  color: #0fcca9;
+  text-decoration: underline;
+}
+footer .social{
+  padding-top: 15px;
+}
+.home-grid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -57,6 +90,8 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  display: grid;
+  grid-template-columns: auto 150px;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -99,6 +134,8 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 
+
+
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
@@ -115,6 +152,10 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  grid-column: 1/2;
+  max-width: 100em;
 
 }
 nav a:link, nav a:visited {
