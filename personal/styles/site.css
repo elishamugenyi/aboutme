@@ -74,11 +74,13 @@ footer .social{
   margin: 200px 0;
   grid-column: 1 / 3;
   grid-row: 2 / 5;
+  justify-items: start;
 }
 .audience-msg {
   margin: 200px 0;
   grid-column: 4 / 6;
   grid-row: 2 / 5;
+  justify-items: right;
 }
 .cloud-services {
   margin: 200px 0;
