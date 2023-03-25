@@ -119,13 +119,17 @@ footer .social{
   margin: 200px 0;
   grid-column: 1 / 3;
   grid-row: 2 / 5;
+  align-items: start;
 }
 .cyber-img {
   margin: 200px 0;
   grid-column: 4 / 5;
   grid-row: 2 / 4;
+  align-self: center;
 }
-
+p.cybersecurity-msg, p.other-msg, p.purpose-msg, p.audience-msg{
+  text-align: start;
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -168,6 +172,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  align-items: start;
 }
 .colors {
   width: 100%;
