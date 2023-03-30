@@ -127,7 +127,9 @@ footer .social{
   grid-row: 2 / 4;
   align-self: center;
 }
-p.cybersecurity-msg, p.other-msg, p.purpose-msg, p.audience-msg{
+.purpose{
+  grid-area: 2 / 1 / 4 / 3;
+  margin-left: 10px;
   text-align: start;
 }
 
