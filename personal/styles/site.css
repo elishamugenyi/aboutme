@@ -63,7 +63,6 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
   
 }
 footer a{
@@ -81,7 +80,7 @@ footer .social{
   padding-top: 15px;
   border-radius: 5%;
   display: grid;
-  grid-template-columns: 100px 100px;
+  grid-template-columns: 10px 10px;
 }
 /*.home-grid{
   display: grid;
