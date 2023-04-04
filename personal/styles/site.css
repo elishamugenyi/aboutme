@@ -79,7 +79,7 @@ footer .social{
   width: 40px;
   padding-top: 15px;
   border-radius: 5%;
-  display: flexbox;
+  display: grid;
   grid-template-columns: 100px 100px;
 }
 /*.home-grid{
